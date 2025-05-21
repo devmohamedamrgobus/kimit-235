@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+* {
+ margin: 0;  
+ box-sizing: border-box;
+ font-family: "Open Sans", sans-serif; 
+}
+
+
+/* .test {
+    width: 500px;
+    height: 500px;
+    background: goldenrod;
+    position: relative;
+} */
+
+
+/* .box {
+    width: 100px;
+    height: 100px;
+    background: gray;
+    position: absolute;
+    right: 1px;
+    bottom: 1px;
+} */
+
+
+/* .container {
+    width: 90%;
+    height: 400px;
+    margin: auto;
+}
+
+.room {
+    width: 23%;
+    height: 100%;
+    float: left;
+    margin-left: 1.5%;
+}
+
+.room-img {
+    width: 100%;
+    height: 80%; 
+    position: relative;
+}
+.room-img button {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%);
+    border: none;
+    background: goldenrod;
+    padding: 10px 20px;
+    color: white;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 800;
+    cursor: pointer;
+    border-radius: 5%;
+}
+
+.room-img  img{
+    width: 100%;
+    height: 100%;
+}
+
+.room-details {
+    width: 100%;
+    height: 20%;
+    text-align: center;
+} */
+
+/* 
+.product {
+    width: 250px;
+    height:350px ;
+    background: green;
+    margin: 100px auto;
+}
+
+.product-img{
+    width: 100%;
+    height: 80%;
+    background: goldenrod;
+    position: relative;
+}
+.product-icon {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 70%;
+    height: 14%;
+}
+.icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: gray;
+    margin-left: 5%;
+    display: inline-block;
+    cursor: pointer;
+}
+.product-img img{
+    width: 100%;
+    height: 100%;
+}
+.product-info{
+    width: 100%;
+    height: 20%;
+} */
+
+
+/* .test {
+    width: 100px;
+    height: 100px;
+    background: gray;
+    margin: 100px auto;
+    transition: 1s;
+}
+
+.test:hover{
+    background: red;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+} */
+
+
+ /* .test {
+    width: 100px;
+    height: 100px;
+    background: gray;
+    margin: 100px auto;
+    overflow: visible;
+} */
+
+/* 
+.person {
+    width: 300px;
+    height: 350px;
+    background: gray;
+    margin:100px auto;
+    overflow: hidden;
+}
+
+.person:hover .social {
+ left: 0;
+}
+
+.person-img{
+    position: relative;
+    width: 100%;
+    height: 80%;
+    background: blueviolet;
+}
+.person-img img{
+    width: 100%;
+    height: 100%;
+}
+.social {
+    position: absolute;
+    top: 0;
+    left: -100px;
+    width: 15%;
+    height: 100%;
+    background: blue;
+    transition: 1s;
+}
+.person-info{
+    width: 100%;
+    height: 20%;
+    background: gold;
+} */
+/* 
+.container {
+    width: 100%;
+    height: 600px;
+}
+.item {
+    float: left;
+    position: relative;
+    width: 33%;
+    height: 50%;
+    background: gray;
+    margin: 100px auto;
+    overflow: hidden;
+}
+.item:hover .circle{
+    bottom: -50px;
+    left: -50px;
+    opacity: 1;
+}
+
+.item img{
+    width: 100%;
+    height: 100%;
+}
+
+.circle {
+    opacity: 0;
+    transition: 1s;
+    position: absolute;
+    bottom: -300px;
+    left: -300px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: blue;
+} */
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background: url('img/business-2.jpg') rgba(0, 0, 0, 0.39);
+    background-blend-mode: color;
+    background-size: cover;
+    display: flow-root;
+    position: relative;
+}
+.navbar {
+
+    width: 80%;
+    height: 50px;
+    margin:5px auto;
+}
+
+.logo {
+    width: 16%;
+    height: 100%;
+    float: left;
+}
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+.links {
+    width: 50%;
+    height: 100%;
+    float: right;
+    ul{
+        list-style-type: none;
+        margin-top: 10px;
+    }
+    li {
+        display: inline-block;
+        margin-left: 5%;
+    }
+
+    a{
+        text-decoration: none;
+        color: white;
+    }
+}
+.content {
+    text-align: center;
+    width: 70%;
+    height: 300px;
+    position: absolute;
+    left: 50%;
+    bottom: 10%;
+    transform: translate(-50%);
+    color: white;
+
+    h2{
+        font-size: 17px;
+        font-weight: 300;
+    }
+    p{
+        font-size: 40px;
+        margin: 30px 0;
+    }
+
+    button{
+        padding: 15px 20px;
+        border: none;
+        background: green;
+        color: white;
+        border-radius: 5px;
+    }
+}
